@@ -74,3 +74,41 @@ D:\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamer
 D:\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.csproj.CopyComplete
 D:\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.exe
 D:\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.pdb
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\Kamerawagen.exe.config
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\Kamerawagen.exe
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\Kamerawagen.pdb
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.xml
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Controls.xml
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Imaging.xml
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Math.xml
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Video.xml
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Video.DirectShow.xml
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Video.FFMPEG.xml
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Video.VFW.xml
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.csprojAssemblyReference.cache
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.Form1.resources
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.Properties.Resources.resources
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.SnapshotForm.resources
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.csproj.GenerateResource.cache
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.csproj.CopyComplete
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.exe
+D:\v17209\OneDrive - Moe, Inc\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.pdb
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\Kamerawagen.exe.config
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\Kamerawagen.exe
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\Kamerawagen.pdb
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.xml
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Controls.xml
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Imaging.xml
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Math.xml
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Video.xml
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Video.DirectShow.xml
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Video.FFMPEG.xml
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\bin\Debug\AForge.Video.VFW.xml
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.csprojAssemblyReference.cache
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.Form1.resources
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.Properties.Resources.resources
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.SnapshotForm.resources
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.csproj.GenerateResource.cache
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.csproj.CopyComplete
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.exe
+E:\v17209\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Debug\Kamerawagen.pdb

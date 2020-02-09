@@ -52,3 +52,30 @@ D:\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamer
 D:\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Release\Kamerawagen.csproj.CopyComplete
 D:\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Release\Kamerawagen.exe
 D:\OneDrive - implement mission-critical ROI\08 Downloadbereich CANguru\23 Kamerawagen Version DiMo\VS-PC\Kamerawagen, enh\obj\Release\Kamerawagen.pdb
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\Kamerawagen.exe.config
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\Kamerawagen.exe
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\Kamerawagen.pdb
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Controls.dll
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.dll
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Imaging.dll
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Math.dll
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Video.DirectShow.dll
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Video.dll
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Video.FFMPEG.dll
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Video.VFW.dll
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.xml
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Controls.xml
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Imaging.xml
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Math.xml
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Video.xml
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Video.DirectShow.xml
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Video.FFMPEG.xml
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\bin\Release\AForge.Video.VFW.xml
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\obj\Release\Kamerawagen.csprojAssemblyReference.cache
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\obj\Release\Kamerawagen.Form1.resources
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\obj\Release\Kamerawagen.Properties.Resources.resources
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\obj\Release\Kamerawagen.SnapshotForm.resources
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\obj\Release\Kamerawagen.csproj.GenerateResource.cache
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\obj\Release\Kamerawagen.csproj.CopyComplete
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\obj\Release\Kamerawagen.exe
+E:\v17209\OneDrive - implement mission-critical ROI\10 Github DiMo\Kamerawagen\Player\obj\Release\Kamerawagen.pdb

@@ -35,7 +35,7 @@ namespace Kamerawagen
         playKind play;
         enum buttonNo
         {
-            disconnect = 0, cif, vga, svga, xga, sxga, saveButton, single, video, finish, info, label, txtBox
+            disconnect = 0, cif, vga, svga, xga, sxga, saveButton, single, rotate, video, finish, info, label, txtBox
         };
         enum framesize_t
         {
@@ -78,6 +78,7 @@ namespace Kamerawagen
         Bitmap video_image;
         int framerate = 10;
         bool PSRAM;
+        RotateFlipType rotatePictureBox;
 
         private SnapshotForm snapshotForm = null;
         public const byte lngFrame = 13;
@@ -105,6 +106,7 @@ namespace Kamerawagen
             // CameraClient sendet zum Cameramodul
             CameraClient = new UdpClient();
             PSRAM = false;
+            rotatePictureBox = RotateFlipType.RotateNoneFlipNone;
 
             // tooltips
             setToolTip((byte)buttonNo.cif, formatArray[(int)framesize_t.FRAMESIZE_CIF]);
@@ -112,6 +114,7 @@ namespace Kamerawagen
             setToolTip((byte)buttonNo.svga, formatArray[(int)framesize_t.FRAMESIZE_SVGA]);
             setToolTip((byte)buttonNo.xga, formatArray[(int)framesize_t.FRAMESIZE_XGA]);
             setToolTip((byte)buttonNo.sxga, formatArray[(int)framesize_t.FRAMESIZE_SXGA]);
+            setToolTip((byte)buttonNo.rotate, "Bild nicht gedreht");
             // CAN
             threadCamera = new Thread(new ThreadStart(fromCamera));
             threadCamera.IsBackground = true;
@@ -136,7 +139,7 @@ namespace Kamerawagen
         private void EnableDisableButtons(int buttonStatus)
         {
             int mask = 1;
-            // disconnect = 0, cif, vga, svga, xga, sxga, saveButton, single, video, finish, info, label, txtBox
+            // disconnect = 0, cif, vga, svga, xga, sxga, saveButton, single, rotate, video, finish, info, label, txtBox
             for (buttonNo button = buttonNo.disconnect; button < buttonNo.info; button++)
             {
                 bool onoff = (buttonStatus & mask) != 0;
@@ -289,30 +292,30 @@ namespace Kamerawagen
         {
             // set busy cursor
             this.Cursor = Cursors.WaitCursor;
-            // info, finish, video, single, savebutton, sxga, xga, svga, vga, cif, diconnect
-            //  0      0      0       1        1          1    1    1     1    0      1
+            // info, finish, video, rotate, single, savebutton, sxga, xga, svga, vga, cif, diconnect
+            //  0      0      0       1        1          1      1    1     1    0      1     1
             switch (play)
             {
                 case playKind.save:
                     EnableDisableButtons(0b0000000000000001);
                     break;
                 case playKind.format_CIF:
-                    EnableDisableButtons(0b0000000011111101);
+                    EnableDisableButtons(0b0000000111111101);
                     break;
                 case playKind.format_VGA:
-                    EnableDisableButtons(0b0000000011111011);
+                    EnableDisableButtons(0b0000000111111011);
                     break;
                 case playKind.format_SVGA:
-                    EnableDisableButtons(0b0000000011110111);
+                    EnableDisableButtons(0b0000000111110111);
                     break;
                 case playKind.format_XGA:
-                    EnableDisableButtons(0b0000000011101111);
+                    EnableDisableButtons(0b0000000111101111);
                     break;
                 case playKind.format_SXGA:
-                    EnableDisableButtons(0b00000000111011111);
+                    EnableDisableButtons(0b00000001111011111);
                     break;
                 default:
-                    EnableDisableButtons(0b00000000111111111);
+                    EnableDisableButtons(0b00000001111111111);
                     break;
             }
             // stop current video source
@@ -339,7 +342,13 @@ namespace Kamerawagen
 
             // start new video source
             videoSourcePlayer.VideoSource = source;
-            videoSourcePlayer.Start();
+  //          if (bitmap1 != null)
+  //          {
+  //              bitmap1.RotateFlip(RotateFlipType.Rotate180FlipY);
+  //              PictureBox1.Image = bitmap1;
+  //          }
+  //      }
+        videoSourcePlayer.Start();
 
             // reset stop watch
             stopWatch = null;
@@ -403,8 +412,12 @@ namespace Kamerawagen
                 Bitmap newImage = ResizeBitmap(image, video_image.Width, video_image.Height);
                 FileWriter.WriteVideoFrame(newImage);
             }
-
-            DateTime now = DateTime.Now;
+            if (image != null)
+            {
+                image.RotateFlip(rotatePictureBox);
+            }
+        
+        DateTime now = DateTime.Now;
             Graphics g = Graphics.FromImage(image);
 
             // paint current time
@@ -508,6 +521,10 @@ namespace Kamerawagen
                 }
             }
             // process the frame
+            if (bitmap != null)
+            {
+                bitmap.RotateFlip(rotatePictureBox);
+            }
         }
 
 
@@ -644,6 +661,21 @@ namespace Kamerawagen
             MJPEGStream mjpegSource = new MJPEGStream(Url);
             OpenVideoSource(mjpegSource, videoKind.stream, true);
             play = playKind.save;
+        }
+
+        private void rotatePicture_Click(object sender, EventArgs e)
+        {
+            if (rotatePictureBox == RotateFlipType.RotateNoneFlipNone)
+            {
+                rotatePictureBox = RotateFlipType.Rotate90FlipNone;
+                setToolTip((byte)buttonNo.rotate, "Bild um 90 Grad gedreht");
+                return;
+            }
+            if (rotatePictureBox == RotateFlipType.Rotate90FlipNone)
+            {
+                rotatePictureBox = RotateFlipType.RotateNoneFlipNone;
+                setToolTip((byte)buttonNo.rotate, "Bild nicht gedreht");
+            }
         }
     }
 }

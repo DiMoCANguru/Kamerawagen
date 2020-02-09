@@ -127,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="camwggn.ico" />
+    <None Include="Resources\Folie10.PNG" />
     <None Include="Resources\Folie5.PNG" />
     <None Include="Resources\Folie4.PNG" />
     <None Include="Resources\Folie3.PNG" />

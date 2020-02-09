@@ -406,7 +406,7 @@ void setup()
 
   Serial.begin(115200);
   Serial.setDebugOutput(false);
-  Serial.println("\r\n\rKamerawagen plus");
+  Serial.println("\r\n\rKamerawagen plus Version DiMo");
 
   if (!EEPROM.begin(EEPROM_SIZE))
   {

@@ -42,6 +42,7 @@
             this.format_SXGA = new System.Windows.Forms.ToolStripButton();
             this.saveButton = new System.Windows.Forms.ToolStripButton();
             this.singlePicture = new System.Windows.Forms.ToolStripButton();
+            this.rotatePicture = new System.Windows.Forms.ToolStripButton();
             this.playVideo = new System.Windows.Forms.ToolStripButton();
             this.exitButton = new System.Windows.Forms.ToolStripButton();
             this.infoButton = new System.Windows.Forms.ToolStripButton();
@@ -94,6 +95,7 @@
             this.format_SXGA,
             this.saveButton,
             this.singlePicture,
+            this.rotatePicture,
             this.playVideo,
             this.exitButton,
             this.infoButton,
@@ -185,6 +187,16 @@
             this.singlePicture.Size = new System.Drawing.Size(49, 29);
             this.singlePicture.Text = "Einzelbild";
             this.singlePicture.Click += new System.EventHandler(this.singlePicture_Click);
+            // 
+            // rotatePicture
+            // 
+            this.rotatePicture.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.rotatePicture.Image = ((System.Drawing.Image)(resources.GetObject("rotatePicture.Image")));
+            this.rotatePicture.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.rotatePicture.Name = "rotatePicture";
+            this.rotatePicture.Size = new System.Drawing.Size(49, 29);
+            this.rotatePicture.Text = "rotatePicture";
+            this.rotatePicture.Click += new System.EventHandler(this.rotatePicture_Click);
             // 
             // playVideo
             // 
@@ -294,5 +306,6 @@
         private System.Windows.Forms.ToolStripTextBox formatTextBox;
         private System.Windows.Forms.ToolStripButton format_XGA;
         private System.Windows.Forms.ToolStripButton format_SXGA;
+        private System.Windows.Forms.ToolStripButton rotatePicture;
     }
 }
